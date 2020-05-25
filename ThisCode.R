@@ -1,6 +1,6 @@
-#Supplementary project by Anirban Biswas and Bassam Arnout
+
 library(crayon)
-cat(blue("\n\nSUPPLEMENTARY PROJECT \nANIRBAN BISWAS \nBASSAM ARNOUT"))
+cat(blue("\n\nPROJECT \n"))
 uData <- read.csv("housing_price.csv", header = TRUE)       # Reading the data from the CSV file
 modData <- uData[,c(1,8,13,18,20,22,23,24,25,27,32)]        # Reading specific columns from the CSV file
 p <- readline(prompt="do you want to view the datas of all 104 houses? input y for yes and n for no : ")
